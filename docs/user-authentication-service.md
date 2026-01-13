@@ -1,7 +1,9 @@
 # Centralized User Authentication Service
 
-> **Version:** 1.0
-> **Last Updated:** 2026-01-10
+> **Version:** 1.1
+> **Last Updated:** 2026-01-13
+>
+> **See Also:** [Additional Documentation](./user-authentication-service-additions.md) - API specifications, environment config, error codes, testing strategy, and more.
 
 This service handles the single source of truth for user authentication and authorization across all microservices. It manages users, roles, permissions, services, and modules.
 
@@ -223,7 +225,7 @@ This service handles the single source of truth for user authentication and auth
 │  sessions (device tracking & refresh tokens)                      │
 │  login_attempts (rate limiting)                                   │
 │  password_resets                                                  │
-│  email_verifications                                              │
+│  otp_verifications                                              │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
